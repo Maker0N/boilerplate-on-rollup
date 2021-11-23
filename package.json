@@ -1,0 +1,14 @@
+{
+  "name": "boilerplate-on-rollup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Maker0N/boilerplate-on-rollup.git",
+  "author": "Maker0N",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^2.60.1"
+  },
+  "scripts": {
+    "build": "rollup --config"
+  }
+}
