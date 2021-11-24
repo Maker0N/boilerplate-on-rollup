@@ -1,3 +1,5 @@
+
+(function(l, r) { if (!l || l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (self.location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(self.document);
 'use strict';
 
 var e = [],
@@ -30,5 +32,6 @@ var css = "body {\n  background: beige;\n  display: flex;\n  justify-content: ce
 n(css,{});
 
 const body = document.querySelector('body');
-const hello = 'Hello World!';
-body.append(hello);
+const hello = 'Hello World! ';
+const helloJS = 'Hello JavaScript!';
+body.append(hello, helloJS);
