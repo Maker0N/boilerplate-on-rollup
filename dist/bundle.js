@@ -28,7 +28,7 @@ function n(n, r) {
   }
 }
 
-var css = "body {\n  background: beige;\n  display: flex;\n  justify-content: center;\n}";
+var css = "body {\n  background: beige;\n  display: flex;\n  height: 100vh;\n  justify-content: center;\n  align-items: center;\n}";
 n(css,{});
 
 const body = document.querySelector('body');
